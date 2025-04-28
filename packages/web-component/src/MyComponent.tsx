@@ -20,7 +20,7 @@ export default function MyComponent({ name }: MyComponentProps) {
   };
 
   return (
-    <div style={{ padding: 20, backgroundColor: "#f0f0f0", borderRadius: 8 }}>
+    <div style={{ padding: 20, backgroundColor: "gray", borderRadius: 8 }}>
       <h2>Hello, {name}!</h2>
       <input
         type="text"
